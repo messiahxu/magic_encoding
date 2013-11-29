@@ -24,7 +24,7 @@ you can call the tool from the console with default parameters like so
 
 this will prepend every ".rb" file in the working directory (recursively) with the following line :
 
-  # -*- encoding : utf-8 -*-
+  # encoding : utf-8
 
 Notes : 
 - existing magic comments are replaced
