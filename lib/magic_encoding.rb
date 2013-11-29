@@ -15,7 +15,8 @@ module AddMagicComment
     encoding  = options[0] || "utf-8"
     directory = options[1] || Dir.pwd
 
-    prefix = "-*- encoding : #{encoding} -*-\n"
+    #prefix = "-*- encoding : #{encoding} -*-\n"
+    prefix = "encoding: utf-8"
 
     # TODO : add options for recursivity (and application of the script to a single file)
 
